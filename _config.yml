@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Mark Hunsinger"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/mark.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Hacker."
   location         : "Scranton, PA"
   email            :
@@ -105,7 +105,7 @@ author:
       url: "mailto:mark.j.hunsinger@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://markhunsinger.com"
+      #url: "https://markhunsinger.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/RyskillTV"
@@ -124,13 +124,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/RyskillTV"
+      url: "https://twitter.com/RyskillTV"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/markjhunsinger"
+      url: "https://github.com/markjhunsinger"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -208,7 +208,6 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-permalink: /about/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -267,7 +266,6 @@ compress_html:
   ignore:
     envs: development
 
-
 # Defaults
 defaults:
   # _posts
@@ -277,7 +275,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: # true
       comments: # true
       share: true
       related: true

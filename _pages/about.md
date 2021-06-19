@@ -1,1 +1,5 @@
-test
+---
+permalink: /about/
+---
+
+Well hello there.
