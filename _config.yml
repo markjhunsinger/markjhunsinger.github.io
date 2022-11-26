@@ -116,6 +116,9 @@ author:
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
     #   # url: "https://your-website.com"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://infosec.exchange/@Ryskill"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/RyskillTV"
@@ -132,6 +135,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://infosec.exchange/@Ryskill"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/RyskillTV"
@@ -291,3 +297,10 @@ defaults:
       share: true
       related: true
       show_date: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
