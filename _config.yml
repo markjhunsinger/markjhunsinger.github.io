@@ -116,7 +116,7 @@ author:
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
     #   # url: "https://your-website.com"
-    - label: "@Ryskill@infosec.exchange"
+    - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
       url: "https://infosec.exchange/@Ryskill"
     - label: "Twitter"
@@ -135,7 +135,7 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "@Ryskill@infosec.exchange"
+    - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
       url: "https://infosec.exchange/@Ryskill"
     - label: "Twitter"
