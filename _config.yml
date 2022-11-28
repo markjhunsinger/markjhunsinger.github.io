@@ -116,6 +116,9 @@ author:
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
     #   # url: "https://your-website.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://linkedin.com/in/markjhunsinger"
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
       url: "https://infosec.exchange/@Ryskill"
@@ -135,6 +138,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://linkedin.com/in/markjhunsinger"
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
       url: "https://infosec.exchange/@Ryskill"
